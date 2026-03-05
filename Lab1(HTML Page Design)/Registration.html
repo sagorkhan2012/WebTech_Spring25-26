@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="eng">
+  <title>Student Registration Page</title>
+
+  <head>
+    <h1>Student Registration Page</h1>
+  </head>
+  <form>
+    <label for="name">Student Name: </label>
+    <input type="text" id="name" placeholder="Enter Your Name" />
+    <br />
+    <br />
+    <label for="cgpa">Student CGPA: </label>
+    <input
+      type="text"
+      id="cgpa"
+      name="studentcgpa"
+      placeholder="Enter Your CGPA"
+    />
+    <br />
+    <br />
+    <label for="GenderMale">Male</label>
+    <input type="radio" id="GenderMale" name="Gender" value="Male" />
+    <br />
+    <br />
+    <label for="GenderFemale">Female</label>
+    <input type="radio" id="GenderFemale" name="Gender" value="Female" />
+    <br />
+    <br />
+    <label for="department">Select Department: </label>
+    <select name="department" id="department">
+      <option value="cse">CSE</option>
+      <option value="eee">EEE</option>
+      <option value="ipe">IPE</option>
+      <option value="bba">BBA</option>
+    </select>
+    <br />
+    <br />
+    <label for="id">Student ID</label>
+    <input type="text" id="id" name="student_id" />
+    <br />
+    <br />
+    <label for="address">Address: </label>
+    <textarea
+      id="address"
+      name="StudentAddress"
+      rows="4"
+      cols="25"
+      placeholder="Enter Your Address Here"
+    >
+    </textarea>
+    <br />
+    <br />
+    <label for="dob">Date Of Birth</label>
+    <input type="date" id="dob" name="student_dob" />
+    <br />
+    <br />
+    <label for="email">Email: </label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="Enter Your Email"
+    />
+    <br />
+    <br />
+    <label for="grade">Upload Your Grade Report: </label>
+    <input type="file" id="grade" name="grade" />
+    <br />
+    <br />
+    <label for="terms">I agree to the terms and conditions</label>
+    <input type="checkbox" id="terms" name="terms" />
+    <br />
+    <br />
+    <label for="phone">Phone Number: </label>
+    <input
+      type="tel"
+      id="phone"
+      name="phone"
+      placeholder="Enter Your Phone Number"
+    />
+    <br />
+    <br />
+    <label for="submit-information">Submit Your information</label>
+    <br />
+    <input type="submit" id="submit" name="submit-information" />
+  </form>
+</html>
