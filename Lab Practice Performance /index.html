@@ -10,34 +10,36 @@
   <body>
     <h1>Contact Us</h1>
 
-    <form>
+    <form id="contactForm">
       <table>
         <tr>
           <td>
-            <label>FIRST NAME</label><br />
-            <input type="text" />
+            <label for="fname">FIRST NAME</label><br />
+            <input type="text" id="fname" />
           </td>
 
           <td>
-            <label>LAST NAME</label><br />
-            <input type="text" />
+            <label for="lname">LAST NAME</label><br />
+            <input type="text" id="lname" />
           </td>
         </tr>
+
         <tr>
           <td>
-            <label>EMAIL</label><br />
-            <input type="email" />
+            <label for="email">EMAIL</label><br />
+            <input type="email" id="email" />
           </td>
 
           <td>
-            <label>PHONE NUMBER</label><br />
-            <input type="text" />
+            <label for="phone">PHONE NUMBER</label><br />
+            <input type="text" id="phone" />
           </td>
         </tr>
+
         <tr>
           <td colspan="2">
-            WHAT DO YOU HAVE IN MIND <br />
-            <textarea rows="5"></textarea>
+            <label for="message">WHAT DO YOU HAVE IN MIND</label><br />
+            <textarea id="message" rows="5"></textarea>
           </td>
         </tr>
 
